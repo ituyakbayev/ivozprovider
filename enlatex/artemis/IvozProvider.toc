@@ -1,0 +1,436 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction to IvozProvider}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}About this documentation}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Getting help}{1}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}What is IvozProvider?}{1}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}IP Telephony}{1}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Multilevel}{2}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Provider oriented}{3}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Exposed to the public network}{4}{subsection.1.3.4}% 
+\contentsline {section}{\numberline {1.4}What is inside IvozProvider?}{4}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Who should use IvozProvider?}{5}{section.1.5}% 
+\contentsline {chapter}{\numberline {2}Platform general architecture}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}General diagram}{7}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}SIP signalling flow}{8}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}RTP audio flow}{8}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}HTTPS traffic}{9}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Additional elements}{9}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Auxiliary elements}{9}{section.2.6}% 
+\contentsline {chapter}{\numberline {3}Initial Installation}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Installation Types}{11}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Distributed Install}{11}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}StandAlone Install}{11}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Minimum requirements}{11}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}System requirements}{11}{subsection.3.2.1}% 
+\contentsline {section}{\numberline {3.3}Debian packages install}{12}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}APT Repository configuration}{12}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Installing profile package}{12}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Finish the installation}{13}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Automatic ISO CD image}{13}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Extra components}{25}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}G.729}{25}{subsection.3.5.1}% 
+\contentsline {chapter}{\numberline {4}Platform roles}{27}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Global administrator role}{27}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Brand administrator role}{28}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Client administrator role}{28}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Final user role}{29}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Making internal calls}{31}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Global Configuration}{31}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Emulate the Demo brand}{31}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}What emulation means}{31}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.2}Brand Configuration}{32}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Client SIP Domain}{32}{subsection.5.2.1}% 
+\contentsline {subsubsection}{I have no time for a DNS registry}{32}{subsubsection*.4}% 
+\contentsline {subsection}{\numberline {5.2.2}Emulate Demo client}{32}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Client Configuration}{33}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Creating Terminals}{33}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Creating Extensions}{33}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Creating Users}{33}{subsection.5.3.3}% 
+\contentsline {section}{\numberline {5.4}SIP Terminal configuration}{33}{section.5.4}% 
+\contentsline {chapter}{\numberline {6}Receiving external calls}{35}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Transformations configuration}{35}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Peering configuration}{35}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Configuring an external DDI}{36}{section.6.3}% 
+\contentsline {paragraph}{Configure incoming routes}{36}{paragraph*.5}% 
+\contentsline {chapter}{\numberline {7}Making external calls}{37}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Create a new carrier}{37}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Where do I call?}{37}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Outgoing Routing configuration}{37}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Outgoing DDI configuration}{38}{section.7.4}% 
+\contentsline {section}{\numberline {7.5}No rating plan, no call}{38}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.5.1}Creating a rating plan}{38}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.2}Assign rating plan to client}{39}{subsection.7.5.2}% 
+\contentsline {section}{\numberline {7.6}Outgoing configuration complete!}{39}{section.7.6}% 
+\contentsline {chapter}{\numberline {8}Platform Configuration}{41}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Brands}{41}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}Brand operators}{42}{subsection.8.1.1}% 
+\contentsline {subsection}{\numberline {8.1.2}Brand Portals}{42}{subsection.8.1.2}% 
+\contentsline {section}{\numberline {8.2}Main operators}{42}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Antiflood trusted IPs}{42}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Antiflood banned IPs}{43}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Terminal manufacturers}{43}{section.8.5}% 
+\contentsline {subsection}{\numberline {8.5.1}Overview}{43}{subsection.8.5.1}% 
+\contentsline {paragraph}{Example Cisco SPA504G}{43}{paragraph*.21}% 
+\contentsline {subsection}{\numberline {8.5.2}Configuration of supported models}{44}{subsection.8.5.2}% 
+\contentsline {subsection}{\numberline {8.5.3}Getting technical}{44}{subsection.8.5.3}% 
+\contentsline {paragraph}{Example 1 - TerminalModels.specificUrlPattern: \{mac\}.cfg}{44}{paragraph*.22}% 
+\contentsline {paragraph}{Example 2 - TerminalModels.specificUrlPattern: \{mac\}}{45}{paragraph*.23}% 
+\contentsline {paragraph}{Example 3 - TerminalModels.specificUrlPattern: yea-\{mac\}.cfg}{45}{paragraph*.24}% 
+\contentsline {paragraph}{Example 4 - TerminalModels.specificUrlPattern: yea-\{mac\}}{45}{paragraph*.25}% 
+\contentsline {section}{\numberline {8.6}Services}{45}{section.8.6}% 
+\contentsline {section}{\numberline {8.7}Currencies}{46}{section.8.7}% 
+\contentsline {section}{\numberline {8.8}Default Notification Templates}{47}{section.8.8}% 
+\contentsline {section}{\numberline {8.9}Default Invoice Templates}{47}{section.8.9}% 
+\contentsline {section}{\numberline {8.10}Global Special Numbers}{47}{section.8.10}% 
+\contentsline {subsection}{\numberline {8.10.1}Disable CDR}{47}{subsection.8.10.1}% 
+\contentsline {section}{\numberline {8.11}SIP domains}{48}{section.8.11}% 
+\contentsline {section}{\numberline {8.12}Platform Portals}{48}{section.8.12}% 
+\contentsline {section}{\numberline {8.13}Active calls}{48}{section.8.13}% 
+\contentsline {subsection}{\numberline {8.13.1}Call state}{49}{subsection.8.13.1}% 
+\contentsline {paragraph}{Example 1: Successful call}{49}{paragraph*.53}% 
+\contentsline {paragraph}{Example 2: Unsuccessful call}{49}{paragraph*.54}% 
+\contentsline {section}{\numberline {8.14}External calls}{50}{section.8.14}% 
+\contentsline {subsection}{\numberline {8.14.1}Call rerating}{50}{subsection.8.14.1}% 
+\contentsline {section}{\numberline {8.15}Infrastructure}{51}{section.8.15}% 
+\contentsline {subsection}{\numberline {8.15.1}Proxy Users}{51}{subsection.8.15.1}% 
+\contentsline {subsection}{\numberline {8.15.2}Proxy Trunks}{51}{subsection.8.15.2}% 
+\contentsline {subsubsection}{Main address}{51}{subsubsection*.71}% 
+\contentsline {subsubsection}{Additional addresses}{51}{subsubsection*.72}% 
+\contentsline {subsection}{\numberline {8.15.3}Media relay sets}{52}{subsection.8.15.3}% 
+\contentsline {subsection}{\numberline {8.15.4}Application Servers}{52}{subsection.8.15.4}% 
+\contentsline {chapter}{\numberline {9}Brand Configuration}{53}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Clients}{53}{section.9.1}% 
+\contentsline {subsection}{\numberline {9.1.1}Virtual PBX}{53}{subsection.9.1.1}% 
+\contentsline {subsubsection}{Additional subsections}{54}{subsubsection*.90}% 
+\contentsline {subsection}{\numberline {9.1.2}Residential}{54}{subsection.9.1.2}% 
+\contentsline {subsubsection}{Adding/Editing residential clients}{55}{subsubsection*.91}% 
+\contentsline {subsubsection}{Additional subsections}{56}{subsubsection*.107}% 
+\contentsline {subsection}{\numberline {9.1.3}Retail}{56}{subsection.9.1.3}% 
+\contentsline {subsubsection}{Differences between retail and residential clients}{56}{subsubsection*.108}% 
+\contentsline {subsubsection}{Adding/Editing retail clients}{57}{subsubsection*.109}% 
+\contentsline {subsubsection}{Additional subsections}{58}{subsubsection*.125}% 
+\contentsline {subsection}{\numberline {9.1.4}Wholesale}{58}{subsection.9.1.4}% 
+\contentsline {subsubsection}{Adding/Editing clients}{59}{subsubsection*.126}% 
+\contentsline {subsubsection}{Additional subsections}{59}{subsubsection*.138}% 
+\contentsline {section}{\numberline {9.2}Providers}{60}{section.9.2}% 
+\contentsline {subsection}{\numberline {9.2.1}Carriers}{60}{subsection.9.2.1}% 
+\contentsline {subsubsection}{Cost calculation}{60}{subsubsection*.147}% 
+\contentsline {subsubsection}{Carrier Servers}{60}{subsubsection*.148}% 
+\contentsline {subsubsection}{List of external calls}{61}{subsubsection*.157}% 
+\contentsline {subsection}{\numberline {9.2.2}DDI Providers}{61}{subsection.9.2.2}% 
+\contentsline {subsubsection}{DDI Provider Addresses}{62}{subsubsection*.162}% 
+\contentsline {subsubsection}{DDI Provider Registrations}{62}{subsubsection*.165}% 
+\contentsline {section}{\numberline {9.3}Routing}{62}{section.9.3}% 
+\contentsline {subsection}{\numberline {9.3.1}Outgoing Routings}{63}{subsection.9.3.1}% 
+\contentsline {subsubsection}{Routing selection logic}{63}{subsubsection*.182}% 
+\contentsline {paragraph}{Load balancing}{63}{paragraph*.183}% 
+\contentsline {paragraph}{Failover routes}{64}{paragraph*.184}% 
+\contentsline {subsubsection}{LCR routes}{64}{subsubsection*.185}% 
+\contentsline {paragraph}{LCR and static routes combined}{64}{paragraph*.186}% 
+\contentsline {subsubsection}{Blocking routes}{64}{subsubsection*.187}% 
+\contentsline {subsection}{\numberline {9.3.2}Routing patterns}{65}{subsection.9.3.2}% 
+\contentsline {subsection}{\numberline {9.3.3}Routing pattern groups}{65}{subsection.9.3.3}% 
+\contentsline {subsection}{\numberline {9.3.4}Routing tags}{65}{subsection.9.3.4}% 
+\contentsline {subsubsection}{Add/Edit/Delete a routing tag}{65}{subsubsection*.188}% 
+\contentsline {subsubsection}{Using routing tags}{65}{subsubsection*.191}% 
+\contentsline {section}{\numberline {9.4}Billing}{66}{section.9.4}% 
+\contentsline {subsection}{\numberline {9.4.1}Billing methods}{66}{subsection.9.4.1}% 
+\contentsline {subsubsection}{Postpaid billing}{66}{subsubsection*.192}% 
+\contentsline {subsubsection}{Prepaid billing}{66}{subsubsection*.193}% 
+\contentsline {subsubsection}{Pseudo-prepaid billing}{66}{subsubsection*.194}% 
+\contentsline {subsection}{\numberline {9.4.2}Price and cost}{67}{subsection.9.4.2}% 
+\contentsline {subsection}{\numberline {9.4.3}Concepts}{67}{subsection.9.4.3}% 
+\contentsline {subsubsection}{Rating plans}{67}{subsubsection*.195}% 
+\contentsline {paragraph}{Rating plan definition}{67}{paragraph*.196}% 
+\contentsline {paragraph}{Adding Destination rates to Rating Plan}{67}{paragraph*.200}% 
+\contentsline {paragraph}{Checking Rating plans}{68}{paragraph*.204}% 
+\contentsline {paragraph}{Assigning rating plans to clients}{68}{paragraph*.205}% 
+\contentsline {paragraph}{Simulating a call of a specific client}{68}{paragraph*.206}% 
+\contentsline {paragraph}{Assigning rating plans to carriers}{68}{paragraph*.207}% 
+\contentsline {paragraph}{Simulating a call of a specific carrier}{68}{paragraph*.208}% 
+\contentsline {subsubsection}{Destination Rates}{68}{subsubsection*.209}% 
+\contentsline {paragraph}{Deductible Connection Fee (Minimal Cost)}{69}{paragraph*.214}% 
+\contentsline {paragraph}{Connection fee 0.01 - Total cost 0.21}{69}{paragraph*.215}% 
+\contentsline {paragraph}{Connection fee 0.01 - Total cost 0.013}{69}{paragraph*.216}% 
+\contentsline {paragraph}{Add rates manually}{70}{paragraph*.217}% 
+\contentsline {paragraph}{How it works}{70}{paragraph*.223}% 
+\contentsline {paragraph}{Importing a CSV file}{70}{paragraph*.224}% 
+\contentsline {subparagraph}{CSV format}{70}{subparagraph*.225}% 
+\contentsline {paragraph}{Re-importing a CSV file}{71}{paragraph*.226}% 
+\contentsline {subsubsection}{Destinations}{72}{subsubsection*.227}% 
+\contentsline {subsubsection}{Prepaid balances}{72}{subsubsection*.228}% 
+\contentsline {paragraph}{Balance Operations}{72}{paragraph*.229}% 
+\contentsline {paragraph}{Balance Movements List}{72}{paragraph*.230}% 
+\contentsline {paragraph}{Balance Notifications}{72}{paragraph*.231}% 
+\contentsline {subsubsection}{Current day usages}{72}{subsubsection*.232}% 
+\contentsline {section}{\numberline {9.5}Invoicing}{73}{section.9.5}% 
+\contentsline {subsection}{\numberline {9.5.1}Invoices}{73}{subsection.9.5.1}% 
+\contentsline {subsubsection}{Generating a new invoice}{73}{subsubsection*.238}% 
+\contentsline {paragraph}{Rules}{73}{paragraph*.248}% 
+\contentsline {paragraph}{Timezones}{74}{paragraph*.249}% 
+\contentsline {subsubsection}{Regenerating an existing invoice}{74}{subsubsection*.250}% 
+\contentsline {paragraph}{Generate invoice for rerated calls}{74}{paragraph*.251}% 
+\contentsline {subsubsection}{List of external calls}{74}{subsubsection*.252}% 
+\contentsline {subsection}{\numberline {9.5.2}Invoice schedulers}{74}{subsection.9.5.2}% 
+\contentsline {subsubsection}{Frequency definition}{75}{subsubsection*.260}% 
+\contentsline {paragraph}{Example 1: Unit: week - Frequency 2}{75}{paragraph*.261}% 
+\contentsline {paragraph}{Example 1: Unit: month - Frequency 3}{75}{paragraph*.262}% 
+\contentsline {paragraph}{Example 1: Unit: month - Frequency 1 - Next execution mangling}{75}{paragraph*.263}% 
+\contentsline {subsection}{\numberline {9.5.3}Invoice number sequences}{76}{subsection.9.5.3}% 
+\contentsline {paragraph}{Example (prefix: TEST, sequence length: 4, increment: 1)}{76}{paragraph*.268}% 
+\contentsline {subsection}{\numberline {9.5.4}Fixed costs}{76}{subsection.9.5.4}% 
+\contentsline {subsection}{\numberline {9.5.5}Invoice templates}{76}{subsection.9.5.5}% 
+\contentsline {section}{\numberline {9.6}Calls}{76}{section.9.6}% 
+\contentsline {subsection}{\numberline {9.6.1}Active calls}{77}{subsection.9.6.1}% 
+\contentsline {subsubsection}{Call state}{77}{subsubsection*.275}% 
+\contentsline {paragraph}{Example 1: Successful call}{77}{paragraph*.276}% 
+\contentsline {paragraph}{Example 2: Unsuccessful call}{78}{paragraph*.277}% 
+\contentsline {subsection}{\numberline {9.6.2}External calls}{78}{subsection.9.6.2}% 
+\contentsline {subsubsection}{Call rerating}{78}{subsubsection*.294}% 
+\contentsline {subsection}{\numberline {9.6.3}Call CSV schedulers}{79}{subsection.9.6.3}% 
+\contentsline {subsubsection}{CSV fields}{80}{subsubsection*.311}% 
+\contentsline {subsubsection}{DDI Provider detection}{80}{subsubsection*.326}% 
+\contentsline {section}{\numberline {9.7}Settings}{80}{section.9.7}% 
+\contentsline {subsection}{\numberline {9.7.1}Client Portals}{81}{subsection.9.7.1}% 
+\contentsline {subsection}{\numberline {9.7.2}Special Numbers}{81}{subsection.9.7.2}% 
+\contentsline {subsection}{\numberline {9.7.3}Numeric transformations}{81}{subsection.9.7.3}% 
+\contentsline {subsubsection}{Incoming transformations}{81}{subsubsection*.327}% 
+\contentsline {subsubsection}{Outgoing transformations}{82}{subsubsection*.329}% 
+\contentsline {paragraph}{Add a new transformation set}{82}{paragraph*.330}% 
+\contentsline {subparagraph}{Example for Spain}{82}{subparagraph*.335}% 
+\contentsline {subsubsection}{Spanish incoming transformation}{83}{subsubsection*.336}% 
+\contentsline {subsubsection}{Spanish outgoing transformation}{83}{subsubsection*.337}% 
+\contentsline {paragraph}{Conclusion}{83}{paragraph*.338}% 
+\contentsline {subsection}{\numberline {9.7.4}Notification Templates}{84}{subsection.9.7.4}% 
+\contentsline {subsubsection}{Creating a new notification}{84}{subsubsection*.339}% 
+\contentsline {subsubsection}{Adding Notification contents}{84}{subsubsection*.342}% 
+\contentsline {subsubsection}{Assigning templates to clients}{85}{subsubsection*.350}% 
+\contentsline {subsection}{\numberline {9.7.5}Generic Music on Hold}{85}{subsection.9.7.5}% 
+\contentsline {subsection}{\numberline {9.7.6}Generic Services}{85}{subsection.9.7.6}% 
+\contentsline {subsubsection}{Call forward services}{85}{subsubsection*.351}% 
+\contentsline {paragraph}{Enabling a call forward setting}{85}{paragraph*.352}% 
+\contentsline {paragraph}{Disabling a call forward setting}{86}{paragraph*.353}% 
+\contentsline {subsection}{\numberline {9.7.7}Generic Match Lists}{86}{subsection.9.7.7}% 
+\contentsline {section}{\numberline {9.8}Views}{86}{section.9.8}% 
+\contentsline {subsection}{\numberline {9.8.1}DDIs}{86}{subsection.9.8.1}% 
+\contentsline {subsection}{\numberline {9.8.2}Retail accounts}{86}{subsection.9.8.2}% 
+\contentsline {subsection}{\numberline {9.8.3}Residential devices}{86}{subsection.9.8.3}% 
+\contentsline {subsection}{\numberline {9.8.4}Users}{86}{subsection.9.8.4}% 
+\contentsline {subsection}{\numberline {9.8.5}IP filter blocked addresses}{87}{subsection.9.8.5}% 
+\contentsline {chapter}{\numberline {10}Client Configuration}{89}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}vPBX Clients}{89}{section.10.1}% 
+\contentsline {subsection}{\numberline {10.1.1}Users}{89}{subsection.10.1.1}% 
+\contentsline {subsubsection}{Personal data}{89}{subsubsection*.354}% 
+\contentsline {subsubsection}{Login Info}{89}{subsubsection*.361}% 
+\contentsline {subsubsection}{Basic Configuration}{89}{subsubsection*.365}% 
+\contentsline {subsubsection}{Voicemail}{90}{subsubsection*.374}% 
+\contentsline {subsubsection}{Boss-Assistant}{90}{subsubsection*.379}% 
+\contentsline {subsubsection}{Group Configuration}{90}{subsubsection*.383}% 
+\contentsline {subsubsection}{User Call Forward}{91}{subsubsection*.384}% 
+\contentsline {subsection}{\numberline {10.1.2}Terminals}{91}{subsection.10.1.2}% 
+\contentsline {subsection}{\numberline {10.1.3}Extensions}{92}{subsection.10.1.3}% 
+\contentsline {paragraph}{Create a new extension}{92}{paragraph*.395}% 
+\contentsline {subsubsection}{Route options}{92}{subsubsection*.398}% 
+\contentsline {subsubsection}{Import aliases}{92}{subsubsection*.407}% 
+\contentsline {paragraph}{Example import file}{92}{paragraph*.408}% 
+\contentsline {subsection}{\numberline {10.1.4}DDIs}{93}{subsection.10.1.4}% 
+\contentsline {subsubsection}{DDI external filters}{93}{subsubsection*.416}% 
+\contentsline {subsubsection}{DDI routes}{93}{subsubsection*.417}% 
+\contentsline {subsection}{\numberline {10.1.5}Routing endpoints}{94}{subsection.10.1.5}% 
+\contentsline {subsubsection}{Interactive Voice Responses (IVRs)}{94}{subsubsection*.418}% 
+\contentsline {paragraph}{IVRs}{94}{paragraph*.419}% 
+\contentsline {paragraph}{IVR Entries}{94}{paragraph*.429}% 
+\contentsline {paragraph}{Entries are regular expressions}{95}{paragraph*.430}% 
+\contentsline {subsubsection}{Hunt groups}{95}{subsubsection*.431}% 
+\contentsline {paragraph}{Adding members to hunt group}{96}{paragraph*.443}% 
+\contentsline {subsubsection}{Queues}{96}{subsubsection*.444}% 
+\contentsline {paragraph}{Queue configuration}{96}{paragraph*.445}% 
+\contentsline {paragraph}{Queue strategy}{97}{paragraph*.455}% 
+\contentsline {subsubsection}{Conditional routes}{97}{subsubsection*.462}% 
+\contentsline {paragraph}{Creating a conditional route}{98}{paragraph*.463}% 
+\contentsline {paragraph}{Adding rules}{98}{paragraph*.464}% 
+\contentsline {paragraph}{Evaluating conditional routes}{98}{paragraph*.465}% 
+\contentsline {paragraph}{DDI routed to a conditional route}{99}{paragraph*.470}% 
+\contentsline {subsubsection}{Friends}{99}{subsubsection*.471}% 
+\contentsline {paragraph}{Types of friends}{99}{paragraph*.472}% 
+\contentsline {subparagraph}{What kind of calls can be routed through an \emph {internal friend}?}{99}{subparagraph*.473}% 
+\contentsline {subparagraph}{Remote friends}{100}{subparagraph*.474}% 
+\contentsline {subparagraph}{Types of remote friends}{100}{subparagraph*.475}% 
+\contentsline {subparagraph}{What do remote friends allow?}{100}{subparagraph*.476}% 
+\contentsline {subparagraph}{What kind of calls can be routed through a \emph {remote friend}?}{100}{subparagraph*.477}% 
+\contentsline {subparagraph}{Configuration of remote friends}{100}{subparagraph*.478}% 
+\contentsline {subparagraph}{Asterisk as a remote friend}{101}{subparagraph*.491}% 
+\contentsline {paragraph}{register}{101}{paragraph*.492}% 
+\contentsline {paragraph}{peer}{101}{paragraph*.493}% 
+\contentsline {subparagraph}{Summary of remote friends}{102}{subparagraph*.494}% 
+\contentsline {subparagraph}{Internal friends}{102}{subparagraph*.495}% 
+\contentsline {subparagraph}{What kind of calls can be routed through an \emph {internal friend}?}{102}{subparagraph*.496}% 
+\contentsline {subparagraph}{Configuration of internal friends}{102}{subparagraph*.497}% 
+\contentsline {subparagraph}{Summary of internal friends}{103}{subparagraph*.503}% 
+\contentsline {subsubsection}{Conference rooms}{103}{subsubsection*.504}% 
+\contentsline {paragraph}{Create a new audio conference}{103}{paragraph*.505}% 
+\contentsline {paragraph}{Route an extension or DDI to the conference}{103}{paragraph*.509}% 
+\contentsline {subsection}{\numberline {10.1.6}Routing tools}{103}{subsection.10.1.6}% 
+\contentsline {subsubsection}{External call filters}{104}{subsubsection*.510}% 
+\contentsline {subsubsection}{Calendars}{104}{subsubsection*.521}% 
+\contentsline {paragraph}{Calendar Holidays}{104}{paragraph*.522}% 
+\contentsline {paragraph}{Calendar Periods}{105}{paragraph*.529}% 
+\contentsline {paragraph}{Difference between non-whole day event and calendar period}{105}{paragraph*.535}% 
+\contentsline {paragraph}{Example}{105}{paragraph*.536}% 
+\contentsline {subsubsection}{Schedules}{106}{subsubsection*.537}% 
+\contentsline {subsubsection}{Match Lists}{106}{subsubsection*.538}% 
+\contentsline {subsubsection}{Route locks}{107}{subsubsection*.539}% 
+\contentsline {paragraph}{Route lock creation}{107}{paragraph*.540}% 
+\contentsline {paragraph}{Route locks service codes}{107}{paragraph*.544}% 
+\contentsline {subsection}{\numberline {10.1.7}User configuration}{107}{subsection.10.1.7}% 
+\contentsline {subsubsection}{Outgoing DDI Rules}{107}{subsubsection*.545}% 
+\contentsline {paragraph}{Outgoing DDI based on destination}{107}{paragraph*.546}% 
+\contentsline {paragraph}{Create a new Outgoing DDI Rule}{108}{paragraph*.547}% 
+\contentsline {paragraph}{Assign rule lists actions}{108}{paragraph*.548}% 
+\contentsline {paragraph}{Assign rule to callers}{108}{paragraph*.549}% 
+\contentsline {paragraph}{Outgoing DDI based on prefix}{108}{paragraph*.550}% 
+\contentsline {paragraph}{Create a new Outgoing DDI Rule}{108}{paragraph*.551}% 
+\contentsline {paragraph}{Assign a prefix pattern}{108}{paragraph*.552}% 
+\contentsline {subsubsection}{Pick up groups}{108}{subsubsection*.553}% 
+\contentsline {paragraph}{Call pickup groups}{108}{paragraph*.556}% 
+\contentsline {paragraph}{Group pickup service code}{109}{paragraph*.557}% 
+\contentsline {subsubsection}{Call ACLs}{109}{subsubsection*.558}% 
+\contentsline {paragraph}{Call ACL Matchlists}{109}{paragraph*.559}% 
+\contentsline {paragraph}{Call ACL}{109}{paragraph*.560}% 
+\contentsline {subparagraph}{Assign Call ACLs}{110}{subparagraph*.563}% 
+\contentsline {subsection}{\numberline {10.1.8}Multimedia}{110}{subsection.10.1.8}% 
+\contentsline {subsubsection}{Locutions}{110}{subsubsection*.564}% 
+\contentsline {subsubsection}{Music on Hold}{110}{subsubsection*.565}% 
+\contentsline {paragraph}{Add a new music on hold}{110}{paragraph*.566}% 
+\contentsline {subsection}{\numberline {10.1.9}Faxes}{111}{subsection.10.1.9}% 
+\contentsline {subsubsection}{Creating a virtual fax}{111}{subsubsection*.567}% 
+\contentsline {subsubsection}{Sending a fax}{111}{subsubsection*.571}% 
+\contentsline {subsubsection}{Incoming faxes display}{111}{subsubsection*.572}% 
+\contentsline {subsection}{\numberline {10.1.10}Services}{111}{subsection.10.1.10}% 
+\contentsline {subsection}{\numberline {10.1.11}Rating profiles}{112}{subsection.10.1.11}% 
+\contentsline {subsection}{\numberline {10.1.12}Calls}{112}{subsection.10.1.12}% 
+\contentsline {subsubsection}{Call registry}{112}{subsubsection*.573}% 
+\contentsline {subsubsection}{Active calls}{112}{subsubsection*.574}% 
+\contentsline {subsubsection}{External calls}{112}{subsubsection*.578}% 
+\contentsline {paragraph}{Call rerating}{113}{paragraph*.595}% 
+\contentsline {subsubsection}{Call CSV schedulers}{113}{subsubsection*.596}% 
+\contentsline {paragraph}{CSV fields}{114}{paragraph*.607}% 
+\contentsline {subsubsection}{Call recordings}{114}{subsubsection*.618}% 
+\contentsline {paragraph}{Automatic DDI recordings}{115}{paragraph*.619}% 
+\contentsline {paragraph}{Record all the calls of a DDI}{115}{paragraph*.620}% 
+\contentsline {paragraph}{On demand recordings}{115}{paragraph*.621}% 
+\contentsline {subparagraph}{Activated using the \emph {Record} key}{115}{subparagraph*.622}% 
+\contentsline {subparagraph}{Activated using \emph {DTMF} codes}{116}{subparagraph*.623}% 
+\contentsline {paragraph}{Recordings list}{116}{paragraph*.624}% 
+\contentsline {section}{\numberline {10.2}Residential Clients}{116}{section.10.2}% 
+\contentsline {subsection}{\numberline {10.2.1}Residential devices}{116}{subsection.10.2.1}% 
+\contentsline {subsubsection}{Types of residential devices}{117}{subsubsection*.625}% 
+\contentsline {subsubsection}{What kind of calls can be routed through a \emph {Residential Device}?}{117}{subsubsection*.626}% 
+\contentsline {subsubsection}{Residential Devices Configuration}{117}{subsubsection*.627}% 
+\contentsline {subsubsection}{Voicemail settings}{117}{subsubsection*.640}% 
+\contentsline {subsubsection}{Call forwarding settings}{118}{subsubsection*.641}% 
+\contentsline {subsubsection}{Asterisk as a residential device}{118}{subsubsection*.642}% 
+\contentsline {paragraph}{Device register}{118}{paragraph*.643}% 
+\contentsline {paragraph}{Device peer}{118}{paragraph*.644}% 
+\contentsline {subsection}{\numberline {10.2.2}DDIs}{119}{subsection.10.2.2}% 
+\contentsline {subsubsection}{Residential DDI routes}{119}{subsubsection*.645}% 
+\contentsline {subsubsection}{Residential Recordings}{119}{subsubsection*.646}% 
+\contentsline {subsection}{\numberline {10.2.3}External call filters}{119}{subsection.10.2.3}% 
+\contentsline {subsubsection}{Filters Configuration}{119}{subsubsection*.647}% 
+\contentsline {subsection}{\numberline {10.2.4}Faxes}{119}{subsection.10.2.4}% 
+\contentsline {subsubsection}{Creating a virtual fax}{119}{subsubsection*.650}% 
+\contentsline {subsubsection}{Sending a fax}{120}{subsubsection*.654}% 
+\contentsline {subsubsection}{Incoming faxes display}{120}{subsubsection*.655}% 
+\contentsline {subsection}{\numberline {10.2.5}Rating profiles}{120}{subsection.10.2.5}% 
+\contentsline {subsection}{\numberline {10.2.6}Calls}{120}{subsection.10.2.6}% 
+\contentsline {subsubsection}{Active calls}{120}{subsubsection*.656}% 
+\contentsline {subsubsection}{External calls}{121}{subsubsection*.660}% 
+\contentsline {paragraph}{Call rerating}{121}{paragraph*.677}% 
+\contentsline {subsubsection}{Call CSV schedulers}{122}{subsubsection*.678}% 
+\contentsline {paragraph}{CSV fields}{122}{paragraph*.687}% 
+\contentsline {subsubsection}{Call recordings}{122}{subsubsection*.698}% 
+\contentsline {paragraph}{Automatic DDI recordings}{123}{paragraph*.699}% 
+\contentsline {paragraph}{Record all the calls of a DDI}{123}{paragraph*.700}% 
+\contentsline {paragraph}{On demand recordings}{123}{paragraph*.701}% 
+\contentsline {subparagraph}{Activated using the \emph {Record} key}{123}{subparagraph*.702}% 
+\contentsline {subparagraph}{Activated using \emph {DTMF} codes}{124}{subparagraph*.703}% 
+\contentsline {paragraph}{Recordings list}{124}{paragraph*.704}% 
+\contentsline {section}{\numberline {10.3}Retail Clients}{124}{section.10.3}% 
+\contentsline {subsection}{\numberline {10.3.1}Retail Accounts}{125}{subsection.10.3.1}% 
+\contentsline {subsubsection}{Types of retail accounts}{125}{subsubsection*.705}% 
+\contentsline {subsubsection}{What kind of calls can be routed through a \emph {Retail Account}?}{125}{subsubsection*.706}% 
+\contentsline {subsubsection}{Retail Accounts Configuration}{125}{subsubsection*.707}% 
+\contentsline {subsubsection}{Voicemail settings}{126}{subsubsection*.717}% 
+\contentsline {subsubsection}{Call forwarding settings}{126}{subsubsection*.718}% 
+\contentsline {subsubsection}{Asterisk as a retail account}{126}{subsubsection*.719}% 
+\contentsline {paragraph}{Account register}{126}{paragraph*.720}% 
+\contentsline {paragraph}{Account peer}{126}{paragraph*.721}% 
+\contentsline {subsection}{\numberline {10.3.2}DDIs}{127}{subsection.10.3.2}% 
+\contentsline {subsubsection}{Retail DDI routes}{127}{subsubsection*.722}% 
+\contentsline {subsubsection}{Retail Recordings}{127}{subsubsection*.723}% 
+\contentsline {subsection}{\numberline {10.3.3}Rating profiles}{127}{subsection.10.3.3}% 
+\contentsline {subsection}{\numberline {10.3.4}Calls}{127}{subsection.10.3.4}% 
+\contentsline {subsubsection}{Active calls}{127}{subsubsection*.724}% 
+\contentsline {subsubsection}{External calls}{128}{subsubsection*.728}% 
+\contentsline {paragraph}{Call rerating}{129}{paragraph*.745}% 
+\contentsline {subsubsection}{Call CSV schedulers}{129}{subsubsection*.746}% 
+\contentsline {paragraph}{CSV fields}{129}{paragraph*.755}% 
+\contentsline {subsubsection}{Call recordings}{130}{subsubsection*.766}% 
+\contentsline {paragraph}{Automatic DDI recordings}{130}{paragraph*.767}% 
+\contentsline {paragraph}{Record all the calls of a DDI}{130}{paragraph*.768}% 
+\contentsline {paragraph}{On demand recordings}{130}{paragraph*.769}% 
+\contentsline {subparagraph}{Activated using the \emph {Record} key}{131}{subparagraph*.770}% 
+\contentsline {subparagraph}{Activated using \emph {DTMF} codes}{131}{subparagraph*.771}% 
+\contentsline {paragraph}{Recordings list}{131}{paragraph*.772}% 
+\contentsline {section}{\numberline {10.4}Wholesale clients}{131}{section.10.4}% 
+\contentsline {subsection}{\numberline {10.4.1}Rating profiles}{132}{subsection.10.4.1}% 
+\contentsline {subsection}{\numberline {10.4.2}Calls}{132}{subsection.10.4.2}% 
+\contentsline {subsubsection}{Active calls}{132}{subsubsection*.773}% 
+\contentsline {subsubsection}{External calls}{132}{subsubsection*.777}% 
+\contentsline {paragraph}{Call rerating}{133}{paragraph*.794}% 
+\contentsline {subsubsection}{Call CSV schedulers}{133}{subsubsection*.795}% 
+\contentsline {paragraph}{CSV fields}{134}{paragraph*.802}% 
+\contentsline {chapter}{\numberline {11}User Portal}{135}{chapter.11}% 
+\contentsline {section}{\numberline {11.1}URLs}{135}{section.11.1}% 
+\contentsline {subsection}{\numberline {11.1.1}God operator}{135}{subsection.11.1.1}% 
+\contentsline {subsection}{\numberline {11.1.2}Brand Operator}{135}{subsection.11.1.2}% 
+\contentsline {section}{\numberline {11.2}Credentials}{136}{section.11.2}% 
+\contentsline {section}{\numberline {11.3}Features}{136}{section.11.3}% 
+\contentsline {chapter}{\numberline {12}Security}{137}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}Firewall}{137}{section.12.1}% 
+\contentsline {subsection}{\numberline {12.1.1}Exposed ports/services}{137}{subsection.12.1.1}% 
+\contentsline {section}{\numberline {12.2}SIP Antiflooding}{138}{section.12.2}% 
+\contentsline {subsection}{\numberline {12.2.1}Antiflooding excluded sources}{138}{subsection.12.2.1}% 
+\contentsline {section}{\numberline {12.3}Authorized IP ranges}{139}{section.12.3}% 
+\contentsline {subsection}{\numberline {12.3.1}Roadwarrior users}{139}{subsection.12.3.1}% 
+\contentsline {paragraph}{Example 1 - Client without IP check}{139}{paragraph*.813}% 
+\contentsline {paragraph}{Example 2 - Client with IP check}{139}{paragraph*.814}% 
+\contentsline {section}{\numberline {12.4}Concurrent call limit}{140}{section.12.4}% 
+\contentsline {section}{\numberline {12.5}Current day max usage}{140}{section.12.5}% 
+\contentsline {section}{\numberline {12.6}Anti brute-force attacks}{140}{section.12.6}% 
+\contentsline {chapter}{\numberline {13}Troubleshooting}{143}{chapter.13}% 
+\contentsline {section}{\numberline {13.1}Analyzing SIP traffic}{143}{section.13.1}% 
+\contentsline {subsection}{\numberline {13.1.1}sngrep}{144}{subsection.13.1.1}% 
+\contentsline {subsection}{\numberline {13.1.2}Other capturing tools}{144}{subsection.13.1.2}% 
+\contentsline {section}{\numberline {13.2}Log viewer}{144}{section.13.2}% 
+\contentsline {subsection}{\numberline {13.2.1}Asterisk CLI}{144}{subsection.13.2.1}% 
+\contentsline {subsection}{\numberline {13.2.2}Kamailio realtime log viewing}{144}{subsection.13.2.2}% 
+\contentsline {section}{\numberline {13.3}Other tools}{145}{section.13.3}% 
+\contentsline {subsection}{\numberline {13.3.1}Metrics viewer}{145}{subsection.13.3.1}% 
+\contentsline {subsection}{\numberline {13.3.2}Active monitoring}{145}{subsection.13.3.2}% 
+\contentsline {chapter}{\numberline {14}Introduction to IvozProvider API}{147}{chapter.14}% 
+\contentsline {chapter}{\numberline {15}Multi-level API}{149}{chapter.15}% 
+\contentsline {paragraph}{God API access}{149}{paragraph*.815}% 
+\contentsline {paragraph}{Brand API access}{149}{paragraph*.816}% 
+\contentsline {paragraph}{Client API access}{149}{paragraph*.817}% 
+\contentsline {chapter}{\numberline {16}Built-in web client}{151}{chapter.16}% 
+\contentsline {paragraph}{Specification}{153}{paragraph*.818}% 
+\contentsline {chapter}{\numberline {17}Third party integrations}{155}{chapter.17}% 
+\contentsline {chapter}{\numberline {18}Use Case}{157}{chapter.18}% 
+\contentsline {paragraph}{On platform API (https://your-domain/api/platform)}{157}{paragraph*.819}% 
+\contentsline {paragraph}{On Brand API (https://brand-domain/api/brand)}{157}{paragraph*.820}% 
+\contentsline {chapter}{\numberline {19}ACLs}{159}{chapter.19}% 
+\contentsline {section}{\numberline {19.1}Restricted global/brand administrators}{159}{section.19.1}% 
+\contentsline {section}{\numberline {19.2}Client restricted administrators}{159}{section.19.2}% 
+\contentsline {paragraph}{Example 1: Recordings-only client administrator}{160}{paragraph*.825}% 
+\contentsline {paragraph}{Example 2: Fax-only client administrator}{160}{paragraph*.826}% 
