@@ -88,6 +88,8 @@ production:
           carrier: true
           ddiProvider: true
           companyType: true
+          retail: true
+          residential: true
           ddi: ${auth.companyWholesale}
           endpointType: ${auth.companyNotVPBX}
           residentialEndpointType: ${auth.companyNotResidential}
