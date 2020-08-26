@@ -422,6 +422,13 @@ interface CompanyInterface extends LoggableEntityInterface
     public function getCallCsvNotificationTemplate();
 
     /**
+     * Get maxDailyUsageNotificationTemplate
+     *
+     * @return \Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateInterface | null
+     */
+    public function getMaxDailyUsageNotificationTemplate();
+
+    /**
      * @return bool
      */
     public function isInitialized(): bool;

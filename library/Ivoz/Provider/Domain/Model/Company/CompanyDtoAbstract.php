@@ -201,6 +201,11 @@ abstract class CompanyDtoAbstract implements DataTransferObjectInterface
     private $callCsvNotificationTemplate;
 
     /**
+     * @var \Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateDto | null
+     */
+    private $maxDailyUsageNotificationTemplate;
+
+    /**
      * @var \Ivoz\Provider\Domain\Model\Extension\ExtensionDto[] | null
      */
     private $extensions = null;
@@ -315,7 +320,8 @@ abstract class CompanyDtoAbstract implements DataTransferObjectInterface
             'voicemailNotificationTemplateId' => 'voicemailNotificationTemplate',
             'faxNotificationTemplateId' => 'faxNotificationTemplate',
             'invoiceNotificationTemplateId' => 'invoiceNotificationTemplate',
-            'callCsvNotificationTemplateId' => 'callCsvNotificationTemplate'
+            'callCsvNotificationTemplateId' => 'callCsvNotificationTemplate',
+            'maxDailyUsageNotificationTemplateId' => 'maxDailyUsageNotificationTemplate'
         ];
     }
 
@@ -363,6 +369,7 @@ abstract class CompanyDtoAbstract implements DataTransferObjectInterface
             'faxNotificationTemplate' => $this->getFaxNotificationTemplate(),
             'invoiceNotificationTemplate' => $this->getInvoiceNotificationTemplate(),
             'callCsvNotificationTemplate' => $this->getCallCsvNotificationTemplate(),
+            'maxDailyUsageNotificationTemplate' => $this->getMaxDailyUsageNotificationTemplate(),
             'extensions' => $this->getExtensions(),
             'ddis' => $this->getDdis(),
             'friends' => $this->getFriends(),
@@ -1535,6 +1542,52 @@ abstract class CompanyDtoAbstract implements DataTransferObjectInterface
     public function getCallCsvNotificationTemplateId()
     {
         if ($dto = $this->getCallCsvNotificationTemplate()) {
+            return $dto->getId();
+        }
+
+        return null;
+    }
+
+    /**
+     * @param \Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateDto $maxDailyUsageNotificationTemplate
+     *
+     * @return static
+     */
+    public function setMaxDailyUsageNotificationTemplate(\Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateDto $maxDailyUsageNotificationTemplate = null)
+    {
+        $this->maxDailyUsageNotificationTemplate = $maxDailyUsageNotificationTemplate;
+
+        return $this;
+    }
+
+    /**
+     * @return \Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateDto | null
+     */
+    public function getMaxDailyUsageNotificationTemplate()
+    {
+        return $this->maxDailyUsageNotificationTemplate;
+    }
+
+    /**
+     * @param mixed | null $id
+     *
+     * @return static
+     */
+    public function setMaxDailyUsageNotificationTemplateId($id)
+    {
+        $value = !is_null($id)
+            ? new \Ivoz\Provider\Domain\Model\NotificationTemplate\NotificationTemplateDto($id)
+            : null;
+
+        return $this->setMaxDailyUsageNotificationTemplate($value);
+    }
+
+    /**
+     * @return mixed | null
+     */
+    public function getMaxDailyUsageNotificationTemplateId()
+    {
+        if ($dto = $this->getMaxDailyUsageNotificationTemplate()) {
             return $dto->getId();
         }
 
