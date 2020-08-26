@@ -160,6 +160,7 @@ production:
             faxNotificationTemplate: 1
             invoiceNotificationTemplate: 1
             callCsvNotificationTemplate: 1
+            maxDailyUsageNotificationTemplate: 1
 
     brandsEdit_screen: &brandsEdit_screenLink
       <<: *Brands
